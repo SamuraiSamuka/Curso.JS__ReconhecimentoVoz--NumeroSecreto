@@ -26,7 +26,12 @@ function exibeChuteNaTela(chute, sobreChute) {
             <h3>O número secreto é ${numeroSecreto}</h3>
             <button id="jogar-novamente" class="btn-jogar">Jogar novamente</button>
         `
-        recognition.stop()
+    } else if (sobreChute === 0) {
+        document.body.innerHTML = `
+            <h2>Gamer Over</h2>
+            <h3>Fim de jogo</h3>
+            <button id="jogar-novamente" class="btn-jogar">Jogar novamente</button>
+        `
     } else {
         elementoChute.innerHTML = `
         <div>Você disse:</div>

@@ -3,7 +3,9 @@ import {maiorValor, menorValor, numeroSecreto}  from "./sortearNumero.js"
 function verificaSeChuteEValido(chute) {
     const numero = Number.parseInt(chute);
 
-    if (chuteForInvalido(numero)) {
+    if (chute === "Game Over" || chute === "Fim de jogo") {
+        return 0
+    } else if (chuteForInvalido(numero)) {
         return `Valor inválido: O valor precisa ser um número`
     } else if (numeroForaDoIntervaloPermitido(numero)) {
         return `Valor inválido: Fale um número entre ${menorValor} e ${maiorValor}`
@@ -29,5 +31,11 @@ function verificaSeChuteAcertou (chute) {
         return "O número secreto é maior."
     }
 }
+
+document.body.addEventListener('click', e => {
+    if (e.target.id === 'jogar-novamente') {
+        window.location.reload()
+    }
+})
 
 export {verificaSeChuteEValido, verificaSeChuteAcertou}
