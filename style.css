@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100&display=swap');
+
+:root {
+    --font-family: 'Noto Sans Mono', monospace;
+    --bg-color: #7895B2;
+    --primary-color: #F5EFE6;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+    font-family: var(--font-family);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 5em;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 4em;
+    margin-bottom: 25px;
+}
+
+h3 {
+    font-size: 2em;
+    margin-bottom: 40px;
+}
+
+.mensagem {
+    font-size: 1.5em;
+    box-sizing: border-box;
+}
+
+.box {
+    border: solid 3px var(--primary-color);
+    display: inline-block;
+    padding: 10px;
+    font-size: 4em;
+    margin: 20px;
+}
+
+.btn-jogar {
+    padding: 8px 15px;
+    border: 0;
+    background-color: var(--primary-color);
+    border-radius: 5px;
+}
