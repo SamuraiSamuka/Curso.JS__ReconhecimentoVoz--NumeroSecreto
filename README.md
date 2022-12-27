@@ -1,8 +1,14 @@
+<img src="https://github.com/SamuraiSamuka/Imagens/blob/main/alura.png">
+
+<hr>
+
 # Numero secreto
-  Este jogo foi desenvolvido durante o curtso [JavaScript: validações e reconhecimento de voz](https://cursos.alura.com.br/course/javascript-validacoes-reconhecimento-voz) da plataforma Alura, a partir do zero.
+
+  Esse é um jogo onde você tenta descobrir o número secreto usando apenas reconhecimento de voz. Basta apenas falar o seu palpite e será dito se o número é maior ou menor, até acertar.
 
 ## Proposta do projeto
-  Esse é um jogo onde você tenta descobrir o número secreto usando apenas reconhecimento de voz. Basta apenas falar o seu palpite e será dito se o número é maior ou menor, até acertar.
+   
+   Este jogo foi desenvolvido durante o curso [JavaScript: validações e reconhecimento de voz](https://cursos.alura.com.br/course/javascript-validacoes-reconhecimento-voz) da Alura, a partir do zero. Nele implementei o reconhecimento de voz.
 
 ## Tecnologias usadas
   * HTML
